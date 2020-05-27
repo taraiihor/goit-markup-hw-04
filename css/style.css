@@ -107,19 +107,6 @@ ul {
   margin-left: 30px;
 }
 
-.mail-nav .link-mail::before {
-  display: inline-block;
-
-  background-repeat: no-repeat;
-  background-position: center;
-  content: "";
-  /* background-color: yellow; */
-  width: 20px;
-  height: 15px;
-  margin-right: 10px;
-  align-content: center;
-}
-
 .mail-nav .link-mail {
   color: var(--primery-text-color);
   font-style: normal;
@@ -127,7 +114,6 @@ ul {
   font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.02em;
-  align-items: center;
 }
 
 .mail-nav .link-mail:hover,
