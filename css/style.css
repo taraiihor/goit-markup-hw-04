@@ -102,18 +102,23 @@ ul {
 .mail-nav {
   display: flex;
   margin-left: auto;
+  align-items: center;
+  justify-content: center;
 }
+
 .mail-nav .item + .item {
   margin-left: 30px;
 }
 
 .mail-nav .link-mail {
+  display: flex;
   color: var(--primery-text-color);
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.02em;
+  align-items: center;
 }
 
 .mail-nav .link-mail:hover,
@@ -122,8 +127,7 @@ ul {
 }
 
 .icon-mail {
-  display: inline-block;
-  fill: #757575;
+  fill: currentColor;
   margin-right: 10px;
 }
 
