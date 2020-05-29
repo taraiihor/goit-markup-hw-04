@@ -319,10 +319,10 @@ ul {
 }
 
 .section-team-card .card {
-  overflow: hidden;
+  /* overflow: hidden; */
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
+  /* border-radius: 4px; */
 }
 
 .section-team-card .card + .card {
@@ -576,9 +576,9 @@ ul {
 
 .element {
   width: 370px;
-  border-top-left-radius: 5px;
+  /* border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  overflow: hidden;
+  overflow: hidden; */
 }
 
 .element:not(:nth-child(3n)) {
@@ -593,7 +593,7 @@ ul {
 .element:hover {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
-  border-radius: 5px;
+  /* border-radius: 5px; */
 }
 
 .items-color {
@@ -605,8 +605,8 @@ ul {
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+  /* border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px; */
 }
 
 .items .title {
