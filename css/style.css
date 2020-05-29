@@ -121,12 +121,22 @@ ul {
   color: var(--accent-color);
 }
 
+.icon-mail {
+  display: inline-block;
+  fill: #757575;
+  margin-right: 10px;
+}
+
+.icon-mail:hover {
+  fill: var(--accent-color);
+}
+
 .hero {
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.8),
       rgba(47, 48, 58, 0.8)
     ),
-    url(../imeges/Header.jpg);
+    url(../imeges/hero.jpg);
   max-width: 1600px;
   background-size: cover;
   background-position: center;
@@ -183,42 +193,17 @@ ul {
   display: flex;
 }
 
-.features-card .icon::before {
-  content: "";
-  display: block;
+.icon-features {
   width: 270px;
   height: 120px;
-  background: #f5f4fa;
+  background-color: #f5f4fa;
   border-radius: 4px;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   margin-bottom: 30px;
-}
-
-.features-card .icon:nth-child(1)::before {
-  content: "";
-  background-image: url(../imeges/antenna1.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.features-card .icon:nth-child(2)::before {
-  content: "";
-  background-image: url(../imeges/clock1.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.features-card .icon:nth-child(3)::before {
-  content: "";
-  background-image: url(../imeges/diagram1.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.features-card .icon:nth-child(4)::before {
-  content: "";
-  background-image: url(../imeges/astronaut1.svg);
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .features-card .icon + .icon {
@@ -226,6 +211,7 @@ ul {
 }
 
 .section-features .subtitle {
+  margin-top: 0px;
   margin-bottom: 10px;
 
   color: var(--title-text-color);
@@ -323,6 +309,7 @@ ul {
 .team-color-card {
   background-color: var(--button);
   width: 270px;
+
   padding-top: 30px;
   padding-bottom: 24px;
 }
@@ -359,41 +346,61 @@ ul {
   display: block;
   width: 44px;
   height: 44px;
-  background-image: url(../imeges/instagram1.svg);
-  background-position: center;
-  background-repeat: no-repeat;
+  border-radius: 50%;
+  padding: 12px;
+  fill: #afb1b8;
 }
+
+.icon-instagram:hover {
+  background-color: var(--accent-color);
+  fill: var(--button);
+}
+
 .icon-twitter {
   display: block;
   width: 44px;
   height: 44px;
-  background-image: url(../imeges/twitter1.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-
+  border-radius: 50%;
+  fill: #afb1b8;
+  padding: 12px;
   margin-left: 11px;
+}
+
+.icon-twitter:hover {
+  background-color: var(--accent-color);
+  fill: var(--button);
 }
 
 .icon-facebook {
   display: block;
   width: 44px;
   height: 44px;
-  background-image: url(../imeges/facebook1.svg);
-  background-position: center;
-  background-repeat: no-repeat;
+  border-radius: 50%;
+  padding: 12px;
+  fill: #afb1b8;
 
   margin-left: 11px;
+}
+
+.icon-facebook:hover {
+  background-color: var(--accent-color);
+  fill: var(--button);
 }
 
 .icon-linkedin {
   display: block;
   width: 44px;
   height: 44px;
-  background-image: url(../imeges/linkedin1.svg);
-  background-position: center;
-  background-repeat: no-repeat;
+  border-radius: 50%;
+  padding: 12px;
+  fill: #afb1b8;
 
   margin-left: 11px;
+}
+
+.icon-linkedin:hover {
+  background-color: var(--accent-color);
+  fill: var(--button);
 }
 
 .section-team .text {
@@ -441,6 +448,15 @@ ul {
   border-radius: 4px;
 }
 
+.icon-logo {
+  display: block;
+  fill: #afb1b8;
+}
+
+.icon-logo:hover {
+  fill: var(--accent-color);
+}
+
 .section-partners-icon .icon + .icon {
   margin-left: 30px;
 }
@@ -472,30 +488,22 @@ ul {
   display: flex;
 }
 
-.icon-footer {
+.icon-footer-social {
   display: inline-block;
   width: 44px;
   height: 44px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
-.icon-footer:nth-child(1) {
-  background-image: url(../imeges/instagram2.svg);
+.icon-footer {
+  display: block;
+  padding: 12px;
+  fill: white;
 }
 
-.icon-footer:nth-child(2) {
-  background-image: url(../imeges/twitter1.svg);
-}
-
-.icon-footer:nth-child(3) {
-  background-image: url(../imeges/facebook1.svg);
-}
-
-.icon-footer:nth-child(4) {
-  background-image: url(../imeges/linkedin1.svg);
+.icon-footer-social:hover {
+  background-color: var(--accent-color);
 }
 
 .address .text {
