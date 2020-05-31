@@ -440,6 +440,10 @@ ul {
 .section-partners-icon .icon {
 }
 
+.section-partners-icon .icon + .icon {
+  margin-left: 30px;
+}
+
 .icon-logo {
   display: flex;
   border: 1px solid #afb1b8;
@@ -448,21 +452,12 @@ ul {
   height: 90px;
   justify-content: center;
   align-items: center;
-  text-align: center;
   fill: #afb1b8;
 }
 
 .icon-logo:hover {
   fill: var(--accent-color);
   border: 1px solid var(--accent-color);
-}
-
-.icon-logo + .icon-logo {
-  margin-left: 30px;
-}
-
-.section-partners-icon .icon + .icon {
-  margin-left: 30px;
 }
 
 /* подвал */
@@ -493,20 +488,26 @@ ul {
 }
 
 .icon-footer-social {
-  display: inline-block;
+  display: flex;
+}
+
+.social-footer + .social-footer {
+  margin-left: 10px;
+}
+
+.icon-footer {
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 44px;
   height: 44px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
-}
-
-.icon-footer {
-  display: block;
-  padding: 12px;
   fill: white;
 }
 
-.icon-footer-social:hover {
+.icon-footer:hover {
   background-color: var(--accent-color);
 }
 
